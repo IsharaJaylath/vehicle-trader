@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/styles/ProductView.css';
 import carMain from '../assets/images/carmain.png';
+import IconComponent from './IconComponent';
 
 const ProductView = () => {
   return (
@@ -28,7 +29,12 @@ const ProductView = () => {
         </div>
         <p className='product-price'>Price: $99.99</p>
         <p className='product-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button className="add-to-cart">Add to Cart</button>
+        <div style={{display:'flex',flexDirection:'row'}}>
+        <IconComponent/>
+        <IconComponent/>
+        <IconComponent/>
+        </div>
+        <button className="add-to-cart">Contact us</button>
       </div>
     </div>
   );
