@@ -1,0 +1,15 @@
+.product-slider {
+    padding: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+  }
+  
+  .slider img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+  }

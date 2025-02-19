@@ -1,0 +1,23 @@
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    max-width: 602px;
+    height: 60px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 600px;
+    height: 40px;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 0;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: 60px;
+    height:'100%';
+  }

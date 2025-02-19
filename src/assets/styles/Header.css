@@ -1,0 +1,120 @@
+.header {
+    background-color: #2F4157;
+    /* padding: 10px 20px; */
+    color: white;
+    align-items: center;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white 0.5px solid;
+  }
+
+  .header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 30px;
+    border-bottom: white 0.5px solid;
+  }
+
+  .header-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+  }
+
+  .header-title {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+  }
+  .header-subtitle{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+  }
+
+  .header-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo-img{
+    width: 144px;
+    height: 45px;
+    object-fit: cover;
+  }
+
+  .header-image {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    background-image: url('../images/header-image.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .car-image {
+    width: 60%; /* Adjust size as needed */
+    height: auto;
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
+    left: 60%; /* Center horizontally */
+    transform: translateX(-50%);
+  }
+  
+  .logo-image {
+    width: 260px; /* Adjust size as needed */
+    height: 80px;
+    height: auto;
+    position: absolute;
+    top: 50%; /* Position at the top */
+    left: 20px; /* Position from the left */
+  }
+
+  .logout-img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav-link { text-decoration: none; margin-right: 10px; }
+
+
+
+  @media (max-width: 768px) {
+    .car-image {
+      width: 150px; /* Smaller size for mobile */
+    }
+  
+    .logo-image {
+      width: 80px; /* Smaller size for mobile */
+    }
+  }
+
+  .sub-text{
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0%;
+    
+  }
+  .sub-text-subtitle{
+    font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-size: 12px;
+letter-spacing: 0%;
+
+  }
